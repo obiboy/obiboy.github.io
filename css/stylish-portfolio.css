@@ -44,19 +44,18 @@ h6 {
 
 .scroll-to-top {
   position: fixed;
-  right: 15px;
-  bottom: 15px;
+  right: 25px;
+  bottom: 30px;
   display: none;
   width: 50px;
   height: 50px;
   text-align: center;
   color: white;
-  background: rgba(52, 58, 64, 0.5);
   line-height: 45px; }
   .scroll-to-top:focus, .scroll-to-top:hover {
     color: white; }
   .scroll-to-top:hover {
-    background: #343a40; }
+    color: #343a40; }
   .scroll-to-top i {
     font-weight: 800; }
 
@@ -68,7 +67,7 @@ h6 {
   height: auto;
   padding-top: 8rem;
   padding-bottom: 8rem;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../img/bg-masthead.jpg");
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0.1) 100%), url("../Content/img/bg-masthead.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; }
@@ -148,19 +147,18 @@ h6 {
 
 .menu-toggle {
   position: fixed;
-  right: 15px;
+  right: 25px;
   top: 15px;
   width: 50px;
   height: 50px;
   text-align: center;
-  color: #fff;
-  background: rgba(52, 58, 64, 0.5);
+  color: #555555;
   line-height: 50px;
   z-index: 999; }
   .menu-toggle:focus, .menu-toggle:hover {
     color: #fff; }
   .menu-toggle:hover {
-    background: #343a40; }
+    color: #555555; }
 
 .service-icon {
   background-color: #fff;
@@ -189,6 +187,7 @@ h6 {
   position: relative;
   overflow: hidden;
   max-width: 530px;
+  max-height: 467px
   margin: auto auto 1rem; }
   .portfolio-item .caption {
     display: flex;
@@ -241,7 +240,8 @@ h6 {
 
 footer.footer {
   padding-top: 5rem;
-  padding-bottom: 5rem; }
+  padding-bottom: 1rem;
+  background-color: #ecb807}
   footer.footer .social-link {
     display: block;
     height: 4rem;
@@ -258,15 +258,15 @@ footer.footer {
 a {
   color: #1D809F; }
   a:hover, a:focus, a:active {
-    color: #155d74; }
+  color: #155d74; }
 
 .btn-primary {
   background-color: #1D809F !important;
   border-color: #1D809F !important;
   color: #fff !important; }
   .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-    background-color: #155d74 !important;
-    border-color: #155d74 !important; }
+  background-color: #155d74 !important;
+  border-color: #155d74 !important; }
 
 .btn-secondary {
   background-color: #ecb807 !important;
@@ -523,7 +523,13 @@ a {
 /* Hide the images by default */
 .mySlides {
     display: none;
-    border: #cccccc 1px solid;
+    margin: 0px auto;
+    justify-content: center;
+
+}
+
+div.videobox {
+    text-align: center;
 }
 
 .active-slide {
@@ -572,4 +578,26 @@ a {
 @keyframes fade {
   from {opacity: 1}
   to {opacity: 1}
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 65px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background: #000000;
+  color: white;
+}
+
+.Beats {
+  width: 100%;
+}
+
+.MusicNote{
+  padding: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
